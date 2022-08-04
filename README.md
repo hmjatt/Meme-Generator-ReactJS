@@ -11,7 +11,7 @@ Creating a **`Meme Generator App`** using `ReactJS`
 
 ### About ℹ️
 
-This app generates a *meme* by reaching out to `imgflip API`, getting the 100 most popular *meme images* at that time. One of those *meme images* will be and users can enter the *meme text*. The `meme text` will then be placed over the selected `meme image`, hence creating a `meme`:trollface:, users can also press a `button` to generate a new `meme image`. By creating this project I learned about `Event Listeners in React`, `React State`, `Conditional Rendering in React`, `React Forms`, `React Hooks(useEffect)`, etc. After creating the project, it was deployed to `github-pages` :bird: Feel free to reach me at [Twitter](https://twitter.com/hmjatt/) 🪶
+This app generates a *meme* by reaching out to `imgflip API`, getting the 100 most popular *meme images* at that time. One of those *meme images* will be and users can enter the *meme text*. The `meme text` will then be placed over the selected `meme image`, hence creating a `meme :trollface:`, users can also press a `button` to generate a new `meme image`. By creating this project I learned about `Event Listeners in React`, `React State`, `Conditional Rendering in React`, `React Forms`, `React Hooks(useEffect)`, etc. After creating the project, it was deployed to `github-pages` :bird: Feel free to reach me at [Twitter](https://twitter.com/hmjatt/) 🪶
 
 <hr>
 
