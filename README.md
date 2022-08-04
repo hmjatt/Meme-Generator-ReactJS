@@ -1,4 +1,4 @@
-# Meme-Generator-ReactJS :trollface:
+# Meme-Generator-ReactJS 🤪
 Creating a **`Meme Generator App** using `ReactJS`
 
 
@@ -182,8 +182,8 @@ at App
 <hr>
 
 #### Quote ✒️
-<!-- 
-    “The science of operations, as derived from mathematics more especially, is a science of itself, and has its own abstract truth and value.”
-    — Ada Lovelace
 
-> 🏯 🗻 🍁 -->
+    “People think computers will keep them from making mistakes. They're wrong. With computers you make mistakes faster.”
+    — Adam Osborne
+
+> 🦝👻😶‍🌫️
