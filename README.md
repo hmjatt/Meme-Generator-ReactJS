@@ -1,5 +1,5 @@
 # Meme-Generator-ReactJS 🤪
-Creating a **`Meme Generator App** using `ReactJS`
+Creating a **`Meme Generator App`** using `ReactJS`
 
 
 <!-- ## [Live Preview](https://hmjatt.github.io/Meme-Generator-ReactJS/)
@@ -11,7 +11,7 @@ Creating a **`Meme Generator App** using `ReactJS`
 
 ### About ℹ️
 
-<!-- A **`Travel Journal`**, created to practice `ReactJS`. It includes *descriptions* of places that I have visited along with some future adventures. *Journal Entries* contain *Title*, *Location*, *Google Maps Link*, *Start Date*, *End Date*, *Description* and *Image*.*Journal Entries* are created dynamically using the *.map()* method and *props* on the `data.js` file, which is an _array of objects_. While creating this project I learned about `React Props`, `Creating Components from an Array`, using `Mapping Components`, etc. After creating the project, it was deployed to `github-pages` :bird: Feel free to reach me at [Twitter](https://twitter.com/hmjatt/) 🌉 -->
+This app generates a *meme* by reaching out to `imgflip API`, getting the 100 most popular *meme images* at that time. One of those *meme images* will be and users can enter the *meme text*. The `meme text` will then be placed over the selected `meme image`, hence creating a `meme`:trollface:, users can also press a `button` to generate a new `meme image`. By creating this project I learned about `Event Listeners in React`, `React State`, `Conditional Rendering in React`, `React Forms`, `React Hooks(useEffect)`, etc. After creating the project, it was deployed to `github-pages` :bird: Feel free to reach me at [Twitter](https://twitter.com/hmjatt/) 🪶
 
 <hr>
 
@@ -23,11 +23,15 @@ Creating a **`Meme Generator App** using `ReactJS`
 
 ## Includes the following features/components ⚙️
 
-    - NPM
     - ReactJS
-    - Custom Components
     - create-react-app
-    - Figma
+    - Figma Design Template
+	- imgflip API
+	- Event Listeners in React
+	- React State
+	- React Forms
+	- Conditional Rendering in React
+	- React Hooks(useEffect)
     - github-pages
 
 <hr>
