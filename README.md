@@ -136,6 +136,14 @@ at App
 
 <hr>
 
+## Future Changes ♾️
+
+- [ ] Only show `meme images` that are compatible with app design(*2 text fields - top & bottom*).
+- [ ] Update the form based upon retrieved `meme image`.
+
+
+<hr>
+
 ## Links to content that helped me with this project 🔗
 <!-- 
 1. The Odin Project
