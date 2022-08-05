@@ -55,47 +55,47 @@ npm start
 <hr>
 
 ## Steps I followed to complete this project 🪜
-<!-- 
+
 ### 1. Initialize Project 🎍
 
-- [x] Initailize the project using `npx create-react-app travel-journal` which will create a complete **React App** pre-configured and pre-installed with all the dependencies.
-- [x] Import **`Inter`** font from google fonts and apply it to **`App`** component.
+<!-- - [x] Initailize the project using `npx create-react-app travel-journal` which will create a complete **React App** pre-configured and pre-installed with all the dependencies.
+- [x] Import **`Inter`** font from google fonts and apply it to **`App`** component. -->
 
 ### 2. Organize components 🗄️
 
-- [x] Create a `components` folder inside `src` directory.
+<!-- - [x] Create a `components` folder inside `src` directory.
 - [x] Create future **custom components** inside `components` folder.
-- [x] Create an `images` folder inside `src` directory and add images/logos inside it.
+- [x] Create an `images` folder inside `src` directory and add images/logos inside it. -->
 
 ### 3. Clean directory🧹
 
-- [x] Delete **unnecessary** files and code from directory.
+<!-- - [x] Delete **unnecessary** files and code from directory. -->
 
 ### 4. Navbar Component 🧩
 
-- [x] Create **`Navbar`** component and basic JSX elements for it.
+<!-- - [x] Create **`Navbar`** component and basic JSX elements for it.
 - [x] Add appropriate `className`s to elements in `Navbar` component.
 - [x] Add `globe.png` image to **`Navbar`** component.
 - [x] Import **`Navbar`** component inside `App` component.
-- [x] Style **`Navbar`** and **`App`** component .
+- [x] Style **`Navbar`** and **`App`** component . -->
 
-### 5. Card Component 🧩
+### 5. Meme Component 🧩
 
-- [x] Create **`Card`** component and basic JSX elements for it.
+<!-- - [x] Create **`Card`** component and basic JSX elements for it.
 - [x] Add appropriate `className`s to elements in `Card` component.
 - [x] Add *photos* to **`Card`** component.
 - [x] Import **`Card`** component inside **`App`** component.
-- [x] Add basic style to **`Card`** component.
+- [x] Add basic style to **`Card`** component. -->
 
 ### 6. Footer Component 🧩
 
-- [x] Create **`Footer`** component and basic JSX elements for it.
+<!-- - [x] Create **`Footer`** component and basic JSX elements for it.
 - [x] Import **`Footer`** component inside `App` component.
-- [x] Style **`Footer`** component.
+- [x] Style **`Footer`** component. -->
 
 ### 7. Map Experiences Data Into Components 🗺️
 
-- [x] Create a file called `data.js`, which contains an _array of objects_. It represents the data that will be used inside **`Card`** component.
+<!-- - [x] Create a file called `data.js`, which contains an _array of objects_. It represents the data that will be used inside **`Card`** component.
 - [x] Import _images_ for **`Card`** component.
 - [x] Use _.map_ to iterate over _array of objects_ inside `data.js` to create **`Card`** components.
 - [x] When we _.map_ over _array of objects_ in **`App`** component, Add _key prop 🗝️ (`key={item.id}`)_ when passing _props_ to **`Card`** components. This will get rid of this warning :
@@ -106,33 +106,33 @@ Check the render method of `App`. See https://reactjs.org/link/warning-keys for 
 at Card (http://localhost:3000/main.5c1f9e47e1f13a06e783.hot-update.js:27:18)
 at App
 
-```
+``` -->
 
 ### 8. Make App Responsive 🎨
 
-- [x] Add _flexbox_ style to `.cards-list` *div* and other *necessary styles*.
+<!-- - [x] Add _flexbox_ style to `.cards-list` *div* and other *necessary styles*.
 - [x] Add a *media query* for `max-width: 600px`.
-- [x] App is responsive upto this point. :smiley:
+- [x] App is responsive upto this point. :smiley: -->
 
-### 9. Pass object as props(Option #1) 📟
+<!-- ### 9. Pass object as props(Option #1) 📟
 
 - [ ] Pass entire object when we _.map_ over _array of objects_ in **`App`** component using _item_ as _key_ and _array of objects_ as its _value_.
 - [ ] Access the object that is passed as prop in **`Card`** component, where _item_ is _key_ and _array of objects_ are its _values_.
 
 ### 10. Spread object as props(Option #2) 📼
 
-- [x] We can make use of `{...item}` [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals), which takes properties of our _object_ and create a separate prop for each _key_ in _object_. _Value_ of _props_ can be accessed using `props.key` syntax, where _key_ is an actual _key_ in `data.js`. This is an alternate to instead of creating our own _prop_ called _item_ to which we pass our entire _object_.**`Spread object as props(Option #2) 📼`** is used in this project.
+- [x] We can make use of `{...item}` [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals), which takes properties of our _object_ and create a separate prop for each _key_ in _object_. _Value_ of _props_ can be accessed using `props.key` syntax, where _key_ is an actual _key_ in `data.js`. This is an alternate to instead of creating our own _prop_ called _item_ to which we pass our entire _object_.**`Spread object as props(Option #2) 📼`** is used in this project. -->
 
-### 11. Prepare for Deployment 🪢
+### 9. Prepare for Deployment 🪢
 
-- [x] Create total of 7 unique **`Card`** components(*journal entries*) inside **`.cards-list`** by updating `data.js`.
+<!-- - [x] Create total of 7 unique **`Card`** components(*journal entries*) inside **`.cards-list`** by updating `data.js`.
 - [x] Delete **unnecessary** files from directory and format code with `Prettier`.
 - [x] Test for _Responsiveness_ and make changes if need be ✅.
-- [x] Add links to `Live Preview` and _screenshots_ ✅.
+- [x] Add links to `Live Preview` and _screenshots_ ✅. -->
 
-### 12. Deploy 📤
+### 10. Deploy 📤
 
-- [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push project to **GitHub Pages** 🎆🎆🎆 -->
+- [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push project to **GitHub Pages** 🎆🎆🎆
 
 <hr>
 
