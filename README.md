@@ -73,13 +73,13 @@ npm start
 
 - [x] Delete **unnecessary** files and code from directory.
 
-### 4. Navbar Component 🧩
+### 4. Header Component 🧩
 
-<!-- - [x] Create **`Navbar`** component and basic JSX elements for it.
-- [x] Add appropriate `className`s to elements in `Navbar` component.
-- [x] Add `globe.png` image to **`Navbar`** component.
-- [x] Import **`Navbar`** component inside `App` component.
-- [x] Style **`Navbar`** and **`App`** component . -->
+- [ ] Create **`Header`** component and basic JSX elements for it.
+- [ ] Add appropriate `className`s to elements in `Header` component.
+- [ ] Add `globe.png` image to **`Header`** component.
+- [ ] Import **`Header`** component inside `App` component.
+- [ ] Style **`Header`** and **`App`** component .
 
 ### 5. Meme Component 🧩
 
