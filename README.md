@@ -163,25 +163,13 @@ at App
 
 4. React Official Documentation
 
-    - [React Hello World Example](https://reactjs.org/docs/hello-world.html)
-    - [Introduction To JSX](https://reactjs.org/docs/introducing-jsx.html)
-    - [Rendering Elements In React](https://reactjs.org/docs/rendering-elements.html)
-    - [Components and Props](https://reactjs.org/docs/components-and-props.html)
-    - [Deployment to **gh-pages**](https://create-react-app.dev/docs/deployment/#github-pages)
-
-5. YouTube
-
-    - [ReactJS Basics Video Series From Academind](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS)
-    - [ReactJS Tutorial Video Series From Codevolution](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=2)
-    - [React & Webpack 4 From Scratch - No CLI from Traversy Media](https://www.youtube.com/watch?v=deyxI-6C2u4)
-    - [The introduction to React you've been missing - Kent C. Dodds(explains how React works under the hood)](https://www.youtube.com/watch?v=SAIdyBFHfVU)
-
-6. FreeCodeCamp
-
-    - [React Props Cheatsheet(Article by Reed Barger)](https://www.freecodecamp.org/news/react-props-cheatsheet/)
-
-7. MDN
-    - [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals)
+    - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+    - [Handling Events](https://reactjs.org/docs/handling-events.html)
+    - [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+    - [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
+    - [Forms](https://reactjs.org/docs/forms.html)
+	- [Using the State Hook](https://reactjs.org/docs/hooks-state.html)
+	- [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
 
 <hr>
