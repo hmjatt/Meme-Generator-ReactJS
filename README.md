@@ -150,6 +150,8 @@ at App
 
     - [React Introduction](https://www.theodinproject.com/lessons/node-path-javascript-react-introduction)
     - [React State & Props](https://www.theodinproject.com/lessons/node-path-javascript-state-and-props)
+	- [Handle Inputs And Render Lists](https://www.theodinproject.com/lessons/node-path-javascript-handle-inputs-and-render-lists)
+
 
 2. Figma Design
 
