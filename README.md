@@ -75,10 +75,10 @@ npm start
 
 ### 4. Header Component 🧩
 
-- [ ] Create **`Header`** component and basic JSX elements for it.
-- [ ] Add appropriate `className`s to elements in `Header` component.
-- [ ] Add `globe.png` image to **`Header`** component.
-- [ ] Import **`Header`** component inside `App` component.
+- [x] Create **`Header`** component and basic JSX elements for it.
+- [x] Add appropriate `className`s to elements in `Header` component.
+- [x] Add `troll-face.png` image to **`Header`** component.
+- [x] Import **`Header`** component inside `App` component.
 - [ ] Style **`Header`** and **`App`** component .
 
 ### 5. Meme Component 🧩
