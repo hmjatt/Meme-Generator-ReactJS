@@ -58,14 +58,16 @@ npm start
 
 ### 1. Initialize Project 🎍
 
-- [x] Initailize the project using `npx create-react-app meme-generator` which will create a complete **React App** pre-configured and pre-installed with all the dependencies.
+- [x] Initialize the project using `npx create-react-app meme-generator` which will create a complete **React App** pre-configured and pre-installed with all the dependencies.
 - [ ] Import **`Karla`** and **`Impact`** fontsfrom google fonts and apply it to **`App`** component.
 
 ### 2. Organize components 🗄️
 
 <!-- - [x] Create a `components` folder inside `src` directory.
 - [x] Create future **custom components** inside `components` folder.
-- [x] Create an `images` folder inside `src` directory and add images/logos inside it. -->
+- [x] Create an `images` folder inside `src` directory and add images/logos inside it. 
+- [x] Create an `styles` folder inside `src` directory and add `.css` files inside it.
+-->
 
 ### 3. Clean directory🧹
 
