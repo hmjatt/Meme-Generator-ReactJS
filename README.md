@@ -145,7 +145,7 @@ at App
 <hr>
 
 ## Links to content that helped me with this project 🔗
-<!-- 
+
 1. The Odin Project
 
     - [React Introduction](https://www.theodinproject.com/lessons/node-path-javascript-react-introduction)
@@ -153,7 +153,7 @@ at App
 
 2. Figma Design
 
-    - [Travel Journal](https://www.figma.com/file/QG4cOExkdbIbhSfWJhs2gs/Travel-Journal?node-id=0%3A1)
+    - [Meme Generator](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0%3A1)
 
 3. Scrimba
 
@@ -180,15 +180,6 @@ at App
 
 7. MDN
     - [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals)
-
-8. Images
-	- [Jellyfish](https://unsplash.com/photos/GVe30cQ8CWU)
-	- [Vermillion Lakes Viewpoint, Banff, Canada](https://unsplash.com/photos/Tna5zIghPPI)
-	- [Capilano Suspension Bridge, West Vancouver, Canada](https://unsplash.com/photos/IIN1k30xGBw)
-	- [Mount Fuji](https://unsplash.com/photos/GhvpEtG5HMs)
-	- [Major's Hill Park, Ottawa, Ontario](https://unsplash.com/photos/-NB5QfF_lxU)
-	- [Jasper](https://unsplash.com/photos/P3v1pPpUzLs)
-	- [Sydney Opera House](https://unsplash.com/photos/TkEBaFrYJ_g) -->
 
 
 <hr>
