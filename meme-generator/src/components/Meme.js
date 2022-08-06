@@ -1,3 +1,5 @@
+import memesData from "../data/memesData"
+
 export default function Meme() {
 
 	// function getRandomImage() {
@@ -6,6 +8,7 @@ export default function Meme() {
     //     let item = arrayOfObjects[Math.floor(Math.random()*arrayOfObjects.length)]        
     //     console.log(item.url);
     // }
+	// console.log(memesData);
 
     return (
         <main>
