@@ -90,9 +90,9 @@ npm start
 
 ### 6. Footer Component 🧩
 
-- [ ] Create **`Footer`** component and basic JSX elements for it.
-- [ ] Import **`Footer`** component inside `App` component.
-- [ ] Style **`Footer`** component.
+- [x] Create **`Footer`** component and basic JSX elements for it.
+- [x] Import **`Footer`** component inside `App` component.
+- [x] Style **`Footer`** component.
 
 ### 7. Map Experiences Data Into Components 🗺️
 

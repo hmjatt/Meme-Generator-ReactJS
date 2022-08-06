@@ -59,3 +59,28 @@ main {
     cursor: pointer;
 }
 /* Meme Component */
+
+/* Footer Component */
+footer {
+	text-align: center;
+	font-size: 1em;
+	color: #351600;
+	background-image: linear-gradient(315deg, #f8de7e 0%, #d99058 74%);
+	border-radius: 5px;
+	margin-top: 1em;
+}
+
+footer p {
+	padding: 0.7em 0;
+	margin: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #00adaa;
+}
+
+footer a:hover {
+	filter: opacity(40%);
+}
+/* Footer Component */
