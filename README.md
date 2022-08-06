@@ -102,7 +102,7 @@ npm start
 ### 7. Get Random Meme 🪄
 
 - [x] Change `<form>` to `<div>` inside the **`Meme`** component as we don't need to submit our *form* instead just get a `meme image`.
-- [ ] Create a `memesData.js` inside `data` folder which is an *object of 100 most popular meme images* returned after making an *API request* to `imgflip API`.
+- [x] Create a `memesData.js` inside `data` folder which is an *object of 100 most popular meme images* returned after making an *API request* to `imgflip API`.
 - [ ] Import `memesData.js` as `memesData` *object* inside the **`Meme`** component.
 - [ ] Select a *random meme image's* `url` property.
 - [ ] `console.log(url)` for now as our `UI` won't update if we insert the `url` *variable* inside the **`Meme`** component. Because this has everything to do with the way *react* deals with updating the `UI` using *variables*. `⚠️ Spoiler Alert!!!: React doesn't just insert every variable that is declared inside our component`.
