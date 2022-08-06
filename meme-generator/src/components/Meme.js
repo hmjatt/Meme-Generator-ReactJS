@@ -2,13 +2,12 @@ import memesData from "../data/memesData"
 
 export default function Meme() {
 
-	// function getRandomImage() {
+	function getRandomImage() {
         
-    //     let arrayOfObjects = memesData.data.memes;
-    //     let item = arrayOfObjects[Math.floor(Math.random()*arrayOfObjects.length)]        
-    //     console.log(item.url);
-    // }
-	// console.log(memesData);
+        let arrayOfObjects = memesData.data.memes;
+        let item = arrayOfObjects[Math.floor(Math.random()*arrayOfObjects.length)]        
+        console.log(item.url);
+    }
 
     return (
         <main>
@@ -25,6 +24,7 @@ export default function Meme() {
                 />
                 <button 
                     className="form-button"
+					onClick={getRandomImage}
                 >
                     Get a new meme image 🖼️
                 </button>
