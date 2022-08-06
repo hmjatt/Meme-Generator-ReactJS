@@ -86,7 +86,7 @@ npm start
 - [x] Create **`Meme`** component and basic JSX elements for it.
 - [x] Add appropriate `className`s to elements in `Meme` component.
 - [x] Import **`Meme`** component inside **`App`** component.
-- [ ] Add basic style to **`Meme`** component.
+- [x] Add basic style to **`Meme`** component.
 
 ### 6. Footer Component 🧩
 

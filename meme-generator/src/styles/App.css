@@ -1,16 +1,22 @@
 .App {
 	font-family: "Karla", sans-serif;
+	max-width: 1200px;
+	width: 95vw;
+	margin: 2% auto;
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
 }
 
+/* Header Component */
 header {
 	display: flex;
 	align-items: center;
 	height: 5em;
-	/* background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%); */
 	background-color: #f8de7e;
 	background-image: linear-gradient(315deg, #f8de7e 0%, #d99058 74%);
 	color: #351600;
 	padding: 1.2em;
+	border-radius: 10px;
 }
 
 .header-image {
@@ -22,3 +28,35 @@ header {
 	font-size: 1.25rem;
 	margin-right: auto;
 }
+/* Header Component */
+
+/* Meme Component */
+main {
+    padding: 5%;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form-button {
+    grid-column: 1 / -1;
+	background-image: linear-gradient(315deg, #f8de7e 0%, #d99058 74%);
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+	font-weight: 500;
+	color: #351600;
+    border: none;
+    cursor: pointer;
+}
+
+/* Meme Component */
