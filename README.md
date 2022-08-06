@@ -61,6 +61,7 @@ npm start
 - [x] Initialize the project using `npx create-react-app meme-generator` which will create a complete **React App** pre-configured and pre-installed with all the dependencies.
 - [x] Import **`Karla`** font from google fonts and apply it to **`App`** component.
 
+
 ### 2. Organize components 🗄️
 
 - [x] Create a `components` folder inside `src` directory.
@@ -73,6 +74,7 @@ npm start
 
 - [x] Delete **unnecessary** files and code from directory.
 
+
 ### 4. Header Component 🧩
 
 - [x] Create **`Header`** component and basic JSX elements for it.
@@ -81,6 +83,7 @@ npm start
 - [x] Import **`Header`** component inside `App` component.
 - [x] Style **`Header`** and **`App`** component .
 
+
 ### 5. Meme Component 🧩
 
 - [x] Create **`Meme`** component and basic JSX elements for it.
@@ -88,26 +91,21 @@ npm start
 - [x] Import **`Meme`** component inside **`App`** component.
 - [x] Add basic style to **`Meme`** component.
 
+
 ### 6. Footer Component 🧩
 
 - [x] Create **`Footer`** component and basic JSX elements for it.
 - [x] Import **`Footer`** component inside `App` component.
 - [x] Style **`Footer`** component.
 
-### 7. Map Experiences Data Into Components 🗺️
 
-<!-- - [x] Create a file called `data.js`, which contains an _array of objects_. It represents the data that will be used inside **`Card`** component.
-- [x] Import _images_ for **`Card`** component.
-- [x] Use _.map_ to iterate over _array of objects_ inside `data.js` to create **`Card`** components.
-- [x] When we _.map_ over _array of objects_ in **`App`** component, Add _key prop 🗝️ (`key={item.id}`)_ when passing _props_ to **`Card`** components. This will get rid of this warning :
+### 7. Get Random Meme 🪄
 
-```
-⚠️ react_devtools_backend.js:4026 Warning: Each child in a list should have a unique "key" prop.
-Check the render method of `App`. See https://reactjs.org/link/warning-keys for more information.
-at Card (http://localhost:3000/main.5c1f9e47e1f13a06e783.hot-update.js:27:18)
-at App
-
-``` -->
+- [ ] Change `<form>` to `<div>` as we don't need to submit our *form* instead just get a `meme image`.
+- [ ] Create a `memesData.js` which is an *object of 100 most popular meme images* returned after making an *API request* to `imgflip API`.
+- [ ] Import `memesData.js` as `memesData` *object* inside the **`Meme`** component.
+- [ ] Select a *random meme image's* `url` property.
+- [ ] `console.log(url)` for now as our `UI` won't update if we insert the `url` *variable* inside the **`Meme`** component. Because this has everything to do with the way *react* deals with updating the `UI` using *variables*. `⚠️ Spoiler Alert!!!: React doesn't just insert every variable that is declared inside our component`.
 
 ### 8. Make App Responsive 🎨
 
