@@ -79,7 +79,7 @@ npm start
 - [x] Add appropriate `className`s to elements in `Header` component.
 - [x] Add `troll-face.png` image to **`Header`** component.
 - [x] Import **`Header`** component inside `App` component.
-- [ ] Style **`Header`** and **`App`** component .
+- [x] Style **`Header`** and **`App`** component .
 
 ### 5. Meme Component 🧩
 
