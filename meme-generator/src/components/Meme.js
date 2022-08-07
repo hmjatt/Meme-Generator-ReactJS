@@ -1,6 +1,6 @@
 import memesData from "../data/memesData"
 
-export default function Meme() {
+function Meme() {
 
 	function getRandomImage() {
         let arrayOfObjects = memesData.data.memes;
@@ -31,3 +31,5 @@ export default function Meme() {
         </main>
     )
 }
+
+export default Meme;

@@ -1,5 +1,5 @@
 import trollFace from "../images/troll-face.png";
-export default function Header() {
+function Header() {
     return (
         <header className="header">
             <img 
@@ -11,3 +11,5 @@ export default function Header() {
         </header>
     )
 }
+
+export default Header;
