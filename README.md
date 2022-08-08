@@ -107,7 +107,15 @@ npm start
 - [x] Select a *random meme image's* `url` property, `console.log(url)` using `onClick={getRandomImage}` *react mouse event property* when `Get a new meme image 🖼️` *button* is clicked.
 - [x] `console.log(url)` for now as our `UI` won't update if we insert the `url` *variable* inside the **`Meme`** component. Because this has everything to do with the way *react* deals with updating the `UI` using *variables*. `⚠️ Spoiler Alert!!!: React doesn't just insert every variable that is declared inside our component`.
 
-### 8. Make App Responsive 🎨
+### 8. Add Images to the Meme Generator 🖼️
+
+- [ ] Save the *random meme URL* in *state*.
+- [ ] Create new *state* called `memeImage` with an empty string as default.
+- [ ] When the `getMemeImage` function is called, update the `memeImage` *state* to be the *random image URL*
+- [ ] Below the `div.form`, add an `<img />` element and set the src to the new `memeImage` state we created.
+- [ ] Style newly created `<img />` element.
+
+### 9. Make App Responsive 🎨
 
 <!-- - [x] Add _flexbox_ style to `.cards-list` *div* and other *necessary styles*.
 - [x] Add a *media query* for `max-width: 600px`.
@@ -122,14 +130,14 @@ npm start
 
 - [x] We can make use of `{...item}` [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals), which takes properties of our _object_ and create a separate prop for each _key_ in _object_. _Value_ of _props_ can be accessed using `props.key` syntax, where _key_ is an actual _key_ in `data.js`. This is an alternate to instead of creating our own _prop_ called _item_ to which we pass our entire _object_.**`Spread object as props(Option #2) 📼`** is used in this project. -->
 
-### 9. Prepare for Deployment 🪢
+### 10. Prepare for Deployment 🪢
 
 <!-- - [x] Create total of 7 unique **`Card`** components(*journal entries*) inside **`.cards-list`** by updating `data.js`.
 - [x] Delete **unnecessary** files from directory and format code with `Prettier`.
 - [x] Test for _Responsiveness_ and make changes if need be ✅.
 - [x] Add links to `Live Preview` and _screenshots_ ✅. -->
 
-### 10. Deploy 📤
+### 11. Deploy 📤
 
 - [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push project to **GitHub Pages** 🎆🎆🎆
 
