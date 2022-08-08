@@ -109,11 +109,11 @@ npm start
 
 ### 8. Add Images to the Meme Generator 🖼️
 
-- [ ] Save the *random meme URL* in *state*.
-- [ ] Create new *state* called `memeImage` with an empty string as default.
-- [ ] When the `getMemeImage` function is called, update the `memeImage` *state* to be the *random image URL*
-- [ ] Below the `div.form`, add an `<img />` element and set the src to the new `memeImage` state we created.
-- [ ] Style newly created `<img />` element.
+- [x] Save the *random meme URL* in *state* and *import the react* `{ useState }` *hook*.
+- [x] Create new *state* called `memeImage` with an empty string as default.
+- [x] When the `getMemeImage` function is called, update the `memeImage` *state* to be the *random image URL*
+- [x] Below the `div.form`, add an `<img />` element and set the src to the new `memeImage` state we created.
+- [x] Style newly created `<img />` element.
 
 ### 9. Make App Responsive 🎨
 
