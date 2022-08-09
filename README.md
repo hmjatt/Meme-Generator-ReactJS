@@ -11,7 +11,7 @@ Creating a **`Meme Generator App`** using `ReactJS`
 
 ### About ℹ️
 
-This app generates a *meme* by reaching out to `imgflip API`, getting the 100 most popular *meme images* at that time. One of those *meme images* will be and users can enter the *meme text*. The `meme text` will then be placed over the selected `meme image`, hence creating a `meme` :trollface: and users can also press a `button` to generate a new `meme image`. By creating this project I learned about `Event Listeners in React`, `React State`, `Conditional Rendering in React`, `React Forms`, `React Hooks(useEffect)`, etc. After creating the project, it was deployed to `github-pages` :bird: Feel free to reach me at [Twitter](https://twitter.com/hmjatt/) 🪶
+This app generates a *meme* by reaching out to `imgflip API`, getting the 100 most popular *meme images* at that time. One of those *meme images* will be and users can enter the *meme text*. The `meme text` will then be placed over the selected `meme image`, hence creating a `meme` :trollface: and users can also press a `button` to generate a new `meme image`. By creating this project I learned about `Event Listeners in React`, `React State`, `Conditional Rendering in React`, `React Forms`, `React Hooks(useEffect)`, etc. After creating the project, it was deployed to `GitHub Pages` :bird: Feel free to reach me on[Twitter](https://twitter.com/hmjatt/) 🪶
 
 <hr>
 
@@ -59,35 +59,35 @@ npm start
 ### 1. Initialize Project 🎍
 
 - [x] Initialize the project using `npx create-react-app meme-generator` which will create a complete **React App** pre-configured and pre-installed with all the dependencies.
-- [x] Import **`Karla`** font from google fonts and apply it to **`App`** component.
+- [x] Import **`Karla`** font from google fonts and apply it to the **`App`** component.
 
 
 ### 2. Organize components 🗄️
 
-- [x] Create a `components` folder inside `src` directory.
-- [x] Create **custom components** inside `components` folder.
-- [x] Create an `images` folder inside `src` directory and add images/logos inside it. 
-- [x] Create an `styles` folder inside `src` directory and add `.css` files inside it.
+- [x] Create a `components` folder inside the `src` directory.
+- [x] Create **custom components** inside the `components` folder.
+- [x] Create an `images` folder inside the `src` directory and add images/logos inside it. 
+- [x] Create a `styles` folder inside the `src` directory and add `.css` files inside it.
 
 
 ### 3. Clean directory🧹
 
-- [x] Delete **unnecessary** files and code from directory.
+- [x] Delete **unnecessary** files and code from the directory.
 
 
 ### 4. Header Component 🧩
 
-- [x] Create **`Header`** component and basic JSX elements for it.
-- [x] Add appropriate `className`s to elements in `Header` component.
-- [x] Add `troll-face.png` image to **`Header`** component.
+- [x] Create a **`Header`** component and basic JSX elements for it.
+- [x] Add appropriate `className`s to elements in the `Header` component.
+- [x] Add `troll-face.png` image to the **`Header`** component.
 - [x] Import **`Header`** component inside `App` component.
-- [x] Style **`Header`** and **`App`** component .
+- [x] Style **`Header`** and **`App`** component.
 
 
 ### 5. Meme Component 🧩
 
-- [x] Create **`Meme`** component and basic JSX elements for it.
-- [x] Add appropriate `className`s to elements in `Meme` component.
+- [x] Create a **`Meme`** component and basic JSX elements for it.
+- [x] Add appropriate `className`s to elements in the `Meme` component.
 - [x] Import **`Meme`** component inside **`App`** component.
 - [x] Add basic style to **`Meme`** component.
 
@@ -102,7 +102,7 @@ npm start
 ### 7. Get Random Meme 🪄
 
 - [x] Change `<form>` to `<div>` inside the **`Meme`** component as we don't need to submit our *form* instead just get a `meme image`.
-- [x] Create a `memesData.js` inside `data` folder which is an *object of 100 most popular meme images* returned after making an *API request* to `imgflip API`.
+- [x] Create a `memesData.js` inside the `data` folder which is an *object of 100 most popular meme images* returned after making an *API request* to `imgflip API`.
 - [x] Import `memesData.js` as `memesData` *object* inside the **`Meme`** component.
 - [x] Select a *random meme image's* `url` property, `console.log(url)` using `onClick={getRandomImage}` *react mouse event property* when `Get a new meme image 🖼️` *button* is clicked.
 - [x] `console.log(url)` for now as our `UI` won't update if we insert the `url` *variable* inside the **`Meme`** component. Because this has everything to do with the way *react* deals with updating the `UI` using *variables*. `⚠️ Spoiler Alert!!!: React doesn't just insert every variable that is declared inside our component`.
@@ -110,7 +110,7 @@ npm start
 ### 8. Add Images to the Meme Generator 🖼️
 
 - [x] Save the *random meme URL* in *state* and *import the react* `{ useState }` *hook*.
-- [x] Create new *state* called `memeImage` with an empty string as default.
+- [x] Create a new *state* called `memeImage` with an empty string as default.
 - [x] When the `getMemeImage` function is called, update the `memeImage` *state* to be the *random image URL*
 - [x] Below the `div.form`, add an `<img />` element and set the src to the new `memeImage` state we created.
 - [x] Style newly created `<img />` element.
@@ -147,14 +147,14 @@ npm start
 
 ### 12. Deploy 📤
 
-- [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push project to **GitHub Pages** 🎆🎆🎆
+- [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push the project to **GitHub Pages** 🎆🎆🎆
 
 <hr>
 
 ## Future Changes ♾️
 
 - [ ] Only show `meme images` that are compatible with app design(*2 text fields - top & bottom*).
-- [ ] Update the form based upon retrieved `meme image`.
+- [ ] Update the form based upon the retrieved `meme image`.
 
 
 <hr>
