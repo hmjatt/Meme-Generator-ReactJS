@@ -10,6 +10,7 @@ function Meme() {
         randomImage: "http://i.imgflip.com/1bij.jpg" 
     });
 
+	const [allMemeImages, setaAllMemeImages] = useState(memesData); 
 
 
 	function getRandomImage() {

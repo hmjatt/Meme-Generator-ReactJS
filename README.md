@@ -120,7 +120,7 @@ npm start
 
 - [x] Update our *state* to save the meme-related data as an object called `meme`. It should have the following *3 properties*: `topText, bottomText, randomImage`.
 - [x] The *2 text states* can default to empty strings for now, and `randomImage` should default to `"http://i.imgflip.com/1bij.jpg"`
-- [ ] Next, create a *new state variable* called `allMemeImages` which will default to `memesData`, which we imported at the top of `Meme.js`
+- [x] Next, create a *new state variable* called `allMemeImages` which will default to `memesData`, which we imported at the top of `Meme.js`
 - [ ] Lastly, update the `getMemeImage` function and the markup to reflect our newly reformed state object and array in the correct way
 
 ### 10. Make App Responsive 🎨
