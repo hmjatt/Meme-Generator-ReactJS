@@ -3,7 +3,14 @@ import memesData from "../data/memesData"
 
 function Meme() {
 
-	const [memeImage, setMemeImage] = useState("http://i.imgflip.com/1bij.jpg");
+
+	const [meme, setMeme] = useState({
+        topText: "",
+        bottomText: "",
+        randomImage: "http://i.imgflip.com/1bij.jpg" 
+    });
+
+
 
 	function getRandomImage() {
         let memesArray = memesData.data.memes;
