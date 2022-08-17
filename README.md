@@ -123,6 +123,11 @@ npm start
 - [x] Next, create a *new state variable* called `allMemeImages` which will default to `memesData`, which we imported at the top of `Meme.js`
 - [x] Lastly, update the `getMemeImage` function and the markup to reflect our newly reformed state object and array in the correct way
 
+### 10. Add Text to Image 📝
+
+
+
+
 ### 10. Make App Responsive 🎨
 
 <!-- - [x] Add _flexbox_ style to `.cards-list` *div* and other *necessary styles*.
