@@ -102,35 +102,53 @@ npm start
 ### 7. Get Random Meme 🪄
 
 - [x] Change `<form>` to `<div>` inside the **`Meme`** component as we don't need to submit our *form* instead just get a `meme image`.
+
 - [x] Create a `memesData.js` inside the `data` folder which is an *object of 100 most popular meme images* returned after making an *API request* to `imgflip API`.
+
 - [x] Import `memesData.js` as `memesData` *object* inside the **`Meme`** component.
+
 - [x] Select a *random meme image's* `url` property, `console.log(url)` using `onClick={getRandomImage}` *react mouse event property* when `Get a new meme image 🖼️` *button* is clicked.
+
 - [x] `console.log(url)` for now as our `UI` won't update if we insert the `url` *variable* inside the **`Meme`** component. Because this has everything to do with the way *react* deals with updating the `UI` using *variables*. `⚠️ Spoiler Alert!!!: React doesn't just insert every variable that is declared inside our component`.
 
 ### 8. Add Images to the Meme Generator 🖼️
 
 - [x] Save the *random meme URL* in *state* and *import the react* `{ useState }` *hook*.
+
 - [x] Create a new *state* called `memeImage` with an empty string as default.
+
 - [x] When the `getMemeImage` function is called, update the `memeImage` *state* to be the *random image URL*
+
 - [x] Below the `div.form`, add an `<img />` element and set the src to the new `memeImage` state we created.
+
 - [x] Style newly created `<img />` element.
 
 
 ### 9. Refactor State 🔃
 
 - [x] Update our *state* to save the meme-related data as an object called `meme`. It should have the following *3 properties*: `topText, bottomText, randomImage`.
+
 - [x] The *2 text states* can default to empty strings for now, and `randomImage` should default to `"http://i.imgflip.com/1bij.jpg"`
+
 - [x] Next, create a *new state variable* called `allMemeImages` which will default to `memesData`, which we imported at the top of `Meme.js`
+
 - [x] Lastly, update the `getMemeImage` function and the markup to reflect our newly reformed state object and array in the correct way
 
 ### 10. Add Text to Image 📝
 
 - [x] Update `topText` element to have a `value={meme.topText}`, `name="topText"` and an `onChange={handleChange}` event handler which will run `{handleChange}` *function* on each key press. On each key press our state changes and *React* re-renders our component and is in charge of maintaining the state. 
-- [x] Update `bottomText` element to have a `value={meme.bottomText}`, `name="bottomText"` and an `onChange={handleChange}` event handler which will run `{handleChange}` *function* on each key press. On each key press our state changes and *React* re-renders our component and is in charge of maintaining the state. 
-- [x] Create a `handleChange` *function*, use *Destructuring assignment(ES6)* to return a new object i.e., -> `const [name, value] = event.target`. While keeping the old *object(state)* intact create a new *object(state)* by using the spread operator `...prevState`.
-- [x]  Override the specific property `[name]: value` using *previous state* and *arrow functions*. Making use of *Computed Properties(ES6)* allows us to turn a *dynamic string(Something Stored in a Variable)* and use it as the property name for our *Object*.
-- [ ] Update our `<h2>` elements by using *values* stored in `{meme.topText}, {meme.bottomText}` *keys* inside our *meme Object* 
 
+- [x] Update `bottomText` element to have a `value={meme.bottomText}`, `name="bottomText"` and an `onChange={handleChange}` event handler which will run `{handleChange}` *function* on each key press. On each key press our state changes and *React* re-renders our component and is in charge of maintaining the state. 
+
+- [x] Create a `handleChange` *function*, use *Destructuring assignment(ES6)* to return a new object i.e., -> `const [name, value] = event.target`. While keeping the old *object(state)* intact create a new *object(state)* by using the spread operator `...prevState`.
+
+- [x]  Override the specific property `[name]: value` using *previous state* and *arrow functions*. Making use of *Computed Properties(ES6)* allows us to turn a *dynamic string(Something Stored in a Variable)* and use it as the property name for our *Object*.
+
+- [ ] Create a `div` with `className=meme` containing `meme-image` and two `<h2>` elements, which will used to show text on top of our `meme-image`.
+
+- [ ] Update our `<h2>` elements by using *values* stored in `{meme.topText}, {meme.bottomText}` *keys* inside our *meme Object*.
+
+- [ ] Style `className=meme` `div` container and `<h2>` elements in it.
 
 ### 10. Make App Responsive 🎨
 
