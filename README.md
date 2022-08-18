@@ -8,20 +8,17 @@ Creating a **`Meme Generator App`** using `ReactJS`
 ![This is an image]() -->
 
 <hr>
-<hr>
 
 ### About ℹ️
 
 This app generates a *meme* by reaching out to `imgflip API`, getting the 100 most popular *meme images* at that time. One of those *meme images* will be and users can enter the *meme text*. The `meme text` will then be placed over the selected `meme image`, hence creating a `meme` :trollface: and users can also press a `button` to generate a new `meme image`. By creating this project I learned about `Event Listeners in React`, `React State`, `Conditional Rendering in React`, `React Forms`, `React Hooks(useEffect)`, etc. After creating the project, it was deployed to `GitHub Pages` :bird: Feel free to reach me on[Twitter](https://twitter.com/hmjatt/) 🪶
 
 <hr>
-<hr>
 
 ### Technologies Used 💻
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/> </a> &emsp; <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> </a> &emsp; <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> </a> &emsp; <a href="https://www.w3schools.com/js/js_es6.asp" target="_blank" rel="noreferrer"> <img src="https://camo.githubusercontent.com/792f7fce1ff8bfac6d0524a21b69161cdc6080a3c4e39979f21d5f8489d6fdd3/68747470733a2f2f692e626c6f67732e65732f3534356366382f6573362d6c6f676f2f6f726967696e616c2e706e67" alt="ES6" width="50" height="50"/> </a> &emsp; <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="reactJS" width="50" height="50"/> </a> &emsp; <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png" alt="figma" width="70" height="50"/> </a>
 
-<hr>
 <hr>
 
 ## Includes the following features/components ⚙️
@@ -37,7 +34,6 @@ This app generates a *meme* by reaching out to `imgflip API`, getting the 100 mo
 	- React Hooks(useEffect)
     - github-pages
 
-<hr>
 <hr>
 
 ## Usage 🤓
@@ -188,12 +184,16 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 - [x] We can make use of `{...item}` [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals), which takes properties of our _object_ and create a separate prop for each _key_ in _object_. _Value_ of _props_ can be accessed using `props.key` syntax, where _key_ is an actual _key_ in `data.js`. This is an alternate to instead of creating our own _prop_ called _item_ to which we pass our entire _object_.**`Spread object as props(Option #2) 📼`** is used in this project. -->
 
+<hr>
+
 ### 11. Prepare for Deployment 🪢
 
 <!-- - [x] Create total of 7 unique **`Card`** components(*journal entries*) inside **`.cards-list`** by updating `data.js`.
 - [x] Delete **unnecessary** files from directory and format code with `Prettier`.
 - [x] Test for _Responsiveness_ and make changes if need be ✅.
 - [x] Add links to `Live Preview` and _screenshots_ ✅. -->
+
+<hr>
 
 ### 12. Deploy 📤
 
@@ -208,7 +208,6 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 - [ ] Update the form based upon the retrieved `meme image`.
 
 
-<hr>
 <hr>
 
 ## Links to content that helped me with this project 🔗
@@ -239,8 +238,6 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 	- [Using the State Hook](https://reactjs.org/docs/hooks-state.html)
 	- [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
 
-
-<hr>
 <hr>
 
 #### Quote ✒️
