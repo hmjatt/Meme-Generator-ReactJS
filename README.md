@@ -161,9 +161,9 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 - [x]  Override the specific property `[name]: value` using *previous state* and *arrow functions*. Making use of *Computed Properties(ES6)* allows us to turn a *dynamic string(Something Stored in a Variable)* and use it as the property name for our *Object*.
 
-- [ ] Create a `div` with `className=meme` containing `meme-image` and two `<h2>` elements, which will used to show text on top of our `meme-image`.
+- [x] Create a `div` with `className=meme` containing `meme-image` and two `<h2>` elements, which will used to show text on top of our `meme-image`.
 
-- [ ] Update our `<h2>` elements by using *values* stored in `{meme.topText}, {meme.bottomText}` *keys* inside our *meme Object*.
+- [x] Update our `<h2>` elements by using *values* stored in `{meme.topText}, {meme.bottomText}` *keys* inside our *meme Object*.
 
 - [ ] Style `className=meme` `div` container and `<h2>` elements in it.
 
