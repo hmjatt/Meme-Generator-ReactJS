@@ -165,7 +165,7 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 - [x] Update our `<h2>` elements by using *values* stored in `{meme.topText}, {meme.bottomText}` *keys* inside our *meme Object*.
 
-- [ ] Style `className=meme` `div` container and `<h2>` elements in it.
+- [x] Style `className=meme` `div` container and `<h2>` elements in it.
 
 <hr>
 
