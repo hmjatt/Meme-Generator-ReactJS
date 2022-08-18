@@ -127,8 +127,8 @@ npm start
 
 - [x] Update `topText` element to have a `value={meme.topText}`, `name="topText"` and an `onChange={handleChange}` event handler which will run `{handleChange}` *function* on each key press. On each key press our state changes and *React* re-renders our component and is in charge of maintaining the state. 
 - [x] Update `bottomText` element to have a `value={meme.bottomText}`, `name="bottomText"` and an `onChange={handleChange}` event handler which will run `{handleChange}` *function* on each key press. On each key press our state changes and *React* re-renders our component and is in charge of maintaining the state. 
-- [ ] Create a `handleChange` *function*, use *Destructuring assignment(ES6)* to return a new object i.e., -> `const [name, value] = event.target`. While keeping the old *object(state)* intact create a new *object(state)* by using the spread operator `...prevState`.
-- [ ]  Override the specific property `[name]: value` using *previous state* and *arrow functions*. Making use of *Computed Properties(ES6)* allows us to turn a *dynamic string(Something Stored in a Variable)* and use it as the property name for our *Object*.
+- [x] Create a `handleChange` *function*, use *Destructuring assignment(ES6)* to return a new object i.e., -> `const [name, value] = event.target`. While keeping the old *object(state)* intact create a new *object(state)* by using the spread operator `...prevState`.
+- [x]  Override the specific property `[name]: value` using *previous state* and *arrow functions*. Making use of *Computed Properties(ES6)* allows us to turn a *dynamic string(Something Stored in a Variable)* and use it as the property name for our *Object*.
 - [ ] Update our `<h2>` elements by using *values* stored in `{meme.topText}, {meme.bottomText}` *keys* inside our *meme Object* 
 
 

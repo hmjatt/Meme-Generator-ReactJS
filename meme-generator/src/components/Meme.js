@@ -24,6 +24,14 @@ function Meme() {
 		}));
     }
 
+	function handleChange(event) {
+        const {name, value} = event.target
+        setMeme(prevMeme => ({
+            ...prevMeme,
+            [name]: value
+        }))
+    }
+
     return (
         <main>
             <div className="form">
@@ -33,7 +41,7 @@ function Meme() {
                     className="form-input"
 					name="topText"
 					value={meme.topText}
-					// onChange={handleChange}
+					onChange={handleChange}
                 />
                 <input 
                     type="text"
@@ -41,7 +49,7 @@ function Meme() {
                     className="form-input"
 					name="bottomText"
 					value={meme.bottomText}
-					// onChange={handleChange}
+					onChange={handleChange}
                 />
                 <button 
                     className="form-button"
