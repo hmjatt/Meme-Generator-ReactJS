@@ -56,51 +56,59 @@ npm start
 
 ## Steps I followed to complete this project 🪜
 
-### 1. Initialize Project 🎍
 
-- [x] Initialize the project using `npx create-react-app meme-generator` which will create a complete **React App** pre-configured and pre-installed with all the dependencies.
+### 1. Initialize Project 🎍
+- [x] Initialize the project using `npx create-react-app meme-generator` which will create a 
+complete **React App** pre-configured and pre-installed with all the dependencies.
+
 - [x] Import **`Karla`** font from google fonts and apply it to the **`App`** component.
 
 
 ### 2. Organize components 🗄️
-
 - [x] Create a `components` folder inside the `src` directory.
+
 - [x] Create **custom components** inside the `components` folder.
+
 - [x] Create an `images` folder inside the `src` directory and add images/logos inside it. 
+
 - [x] Create a `styles` folder inside the `src` directory and add `.css` files inside it.
 
 
 ### 3. Clean directory🧹
-
 - [x] Delete **unnecessary** files and code from the directory.
 
 
 ### 4. Header Component 🧩
-
 - [x] Create a **`Header`** component and basic JSX elements for it.
+
 - [x] Add appropriate `className`s to elements in the `Header` component.
+
 - [x] Add `troll-face.png` image to the **`Header`** component.
+
 - [x] Import **`Header`** component inside `App` component.
+
 - [x] Style **`Header`** and **`App`** component.
 
 
 ### 5. Meme Component 🧩
-
 - [x] Create a **`Meme`** component and basic JSX elements for it.
+
 - [x] Add appropriate `className`s to elements in the `Meme` component.
+
 - [x] Import **`Meme`** component inside **`App`** component.
+
 - [x] Add basic style to **`Meme`** component.
 
 
 ### 6. Footer Component 🧩
-
 - [x] Create **`Footer`** component and basic JSX elements for it.
+
 - [x] Import **`Footer`** component inside `App` component.
+
 - [x] Style **`Footer`** component.
 
 
 ### 7. Get Random Meme 🪄
-
 - [x] Change `<form>` to `<div>` inside the **`Meme`** component as we don't need to submit our *form* instead just get a `meme image`.
 
 - [x] Create a `memesData.js` inside the `data` folder which is an *object of 100 most popular meme images* returned after making an *API request* to `imgflip API`.
@@ -112,7 +120,6 @@ npm start
 - [x] `console.log(url)` for now as our `UI` won't update if we insert the `url` *variable* inside the **`Meme`** component. Because this has everything to do with the way *react* deals with updating the `UI` using *variables*. `⚠️ Spoiler Alert!!!: React doesn't just insert every variable that is declared inside our component`.
 
 ### 8. Add Images to the Meme Generator 🖼️
-
 - [x] Save the *random meme URL* in *state* and *import the react* `{ useState }` *hook*.
 
 - [x] Create a new *state* called `memeImage` with an empty string as default.
@@ -125,7 +132,6 @@ npm start
 
 
 ### 9. Refactor State 🔃
-
 - [x] Update our *state* to save the meme-related data as an object called `meme`. It should have the following *3 properties*: `topText, bottomText, randomImage`.
 
 - [x] The *2 text states* can default to empty strings for now, and `randomImage` should default to `"http://i.imgflip.com/1bij.jpg"`
@@ -134,8 +140,8 @@ npm start
 
 - [x] Lastly, update the `getMemeImage` function and the markup to reflect our newly reformed state object and array in the correct way
 
-### 10. Add Text to Image 📝
 
+### 10. Add Text to Image 📝
 - [x] Update `topText` element to have a `value={meme.topText}`, `name="topText"` and an `onChange={handleChange}` event handler which will run `{handleChange}` *function* on each key press. On each key press our state changes and *React* re-renders our component and is in charge of maintaining the state. 
 
 - [x] Update `bottomText` element to have a `value={meme.bottomText}`, `name="bottomText"` and an `onChange={handleChange}` event handler which will run `{handleChange}` *function* on each key press. On each key press our state changes and *React* re-renders our component and is in charge of maintaining the state. 
