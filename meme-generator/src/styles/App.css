@@ -132,3 +132,10 @@ footer a:hover {
 	filter: opacity(40%);
 }
 /* Footer Component */
+
+
+@media only screen and (max-width: 600px) {
+	.meme-text {
+		font-size: 1.55em;
+	}
+}

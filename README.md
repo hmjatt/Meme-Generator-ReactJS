@@ -181,9 +181,9 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 <hr>
 
 ### 12. Make App Responsive 🎨
-- [ ] Change *Absolute* units to *Relative*.
+- [x] Change *Absolute* units to *Relative*.
 
-- [ ] Make App responsive for mobile. :smiley:
+- [x] Make App responsive for mobile by adding `media query` . :smiley:
 
 
 <hr>
