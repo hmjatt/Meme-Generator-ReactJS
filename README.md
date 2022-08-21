@@ -178,18 +178,13 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 - [x] Get rid of `const memesArray = allMemeImages.data.memes;` line in our `getRandomImage()` function because new state for `allMeme` is already an *array of `memes` objects*. Update all instances of `memesArray` variable to `allMemes`.
 
+<hr>
+
 ### 12. Make App Responsive 🎨
-<!-- - [x] Add _flexbox_ style to `.cards-list` *div* and other *necessary styles*.
-- [x] Add a *media query* for `max-width: 600px`.
-- [x] App is responsive upto this point. :smiley: -->
+- [ ] Change *Absolute* units to *Relative*.
 
-<!-- ### 9. Pass object as props(Option #1) 📟
+- [ ] Make App responsive for mobile. :smiley:
 
-- [ ] Pass entire object when we _.map_ over _array of objects_ in **`App`** component using _item_ as _key_ and _array of objects_ as its _value_.
-- [ ] Access the object that is passed as prop in **`Card`** component, where _item_ is _key_ and _array of objects_ are its _values_.
-
-### 10. Spread object as props(Option #2) 📼
-- [x] We can make use of `{...item}` [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals), which takes properties of our _object_ and create a separate prop for each _key_ in _object_. _Value_ of _props_ can be accessed using `props.key` syntax, where _key_ is an actual _key_ in `data.js`. This is an alternate to instead of creating our own _prop_ called _item_ to which we pass our entire _object_.**`Spread object as props(Option #2) 📼`** is used in this project. -->
 
 <hr>
 
