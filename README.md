@@ -172,7 +172,7 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 ### 11. Get Memes form the API ⬇️
 - [x] Update *state variable* called `allMemeImages` to `const [allMemes, setAllMemes] = React.useState([])`, where *default state* is an empty array.
 
-- [ ] As soon as the **`Meme component`**  loads the first time, make an API call to "https://api.imgflip.com/get_memes".
+- [x] Using *Effect Hook(`useEffect`)*, as soon as the **`Meme component`** loads the first time, make an API call to "https://api.imgflip.com/get_memes".
 
 - [ ] When the data comes in, save just the memes array part of that data to the `allMemes` state.
 
