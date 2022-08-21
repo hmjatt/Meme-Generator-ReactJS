@@ -211,7 +211,7 @@ npm start
 
 ### 14. Deploy 📤
 
--   [ ] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push the project to **GitHub Pages** 🎆🎆🎆
+-   [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push the project to **GitHub Pages** 🎆🎆🎆
 
 <hr>
 <hr>
