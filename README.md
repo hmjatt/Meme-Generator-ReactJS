@@ -174,7 +174,7 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 - [x] Using *Effect Hook(`useEffect`)*, as soon as the **`Meme component`** loads the first time, make an API call to "https://api.imgflip.com/get_memes".
 
-- [ ] When the data comes in, save just the memes array part of that data to the `allMemes` state.
+- [x] When the data comes in, save just the memes array part of that data to the `allMemes` state.
 
 - [ ] Get rid of `const memesArray = allMemeImages.data.memes;` line in our code as new state for `allMeme` is already an *array of `memes` objects*.
 
