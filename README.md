@@ -2,10 +2,10 @@
 
 Creating a **`Meme Generator App`** using `ReactJS`
 
-<!-- ## [Live Preview](https://hmjatt.github.io/Meme-Generator-ReactJS/)
+## [Live Preview](https://hmjatt.github.io/Meme-Generator-ReactJS/)
 
-![This is an image]()
-![This is an image]() -->
+![This is an image](https://github.com/hmjatt/hmjatt.github.io/blob/master/images/meme-generator/mobile.png)
+![This is an image](https://github.com/hmjatt/hmjatt.github.io/blob/master/images/meme-generator/desktop.png)
 
 <hr>
 
@@ -205,13 +205,13 @@ npm start
 
 -   [x] Test for _Responsiveness_ and make changes if need be ✅.
 
--   [ ] Add links to `Live Preview` and _screenshots_ ✅.
+-   [x] Add links to `Live Preview` and _screenshots_ ✅.
 
 <hr>
 
 ### 14. Deploy 📤
 
--   [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push the project to **GitHub Pages** 🎆🎆🎆
+-   [ ] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push the project to **GitHub Pages** 🎆🎆🎆
 
 <hr>
 <hr>
