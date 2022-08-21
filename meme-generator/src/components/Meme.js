@@ -10,7 +10,7 @@ function Meme() {
         randomImage: "http://i.imgflip.com/1bij.jpg" 
     });
 
-	const [allMemeImages] = useState(memesData); 
+	const [allMemes, setAllMemes] = React.useState([])
 
 
 	function getRandomImage() {
