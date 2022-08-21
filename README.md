@@ -176,7 +176,7 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 - [x] When the data comes in, save just the memes array part of that data to the `allMemes` state.
 
-- [ ] Get rid of `const memesArray = allMemeImages.data.memes;` line in our code as new state for `allMeme` is already an *array of `memes` objects*.
+- [x] Get rid of `const memesArray = allMemeImages.data.memes;` line in our `getRandomImage()` function because new state for `allMeme` is already an *array of `memes` objects*. Update all instances of `memesArray` variable to `allMemes`.
 
 ### 12. Make App Responsive 🎨
 <!-- - [x] Add _flexbox_ style to `.cards-list` *div* and other *necessary styles*.
