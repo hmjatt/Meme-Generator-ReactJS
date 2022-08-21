@@ -169,8 +169,14 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 <hr>
 
-### 10. Make App Responsive 🎨
+### 11. Get Memes form the API ⬇️
+- [ ] As soon as the **`Meme component`**  loads the first time, make an API call to "https://api.imgflip.com/get_memes".
 
+- [ ] When the data comes in, save just the memes array part of that data to the `allMemes` state.
+
+- [ ] Get rid of `const memesArray = allMemeImages.data.memes;` line in our code as new state for `allMeme` is already an *array of `memes` objects*.
+
+### 12. Make App Responsive 🎨
 <!-- - [x] Add _flexbox_ style to `.cards-list` *div* and other *necessary styles*.
 - [x] Add a *media query* for `max-width: 600px`.
 - [x] App is responsive upto this point. :smiley: -->
@@ -181,12 +187,11 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 - [ ] Access the object that is passed as prop in **`Card`** component, where _item_ is _key_ and _array of objects_ are its _values_.
 
 ### 10. Spread object as props(Option #2) 📼
-
 - [x] We can make use of `{...item}` [Spread in Object Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals), which takes properties of our _object_ and create a separate prop for each _key_ in _object_. _Value_ of _props_ can be accessed using `props.key` syntax, where _key_ is an actual _key_ in `data.js`. This is an alternate to instead of creating our own _prop_ called _item_ to which we pass our entire _object_.**`Spread object as props(Option #2) 📼`** is used in this project. -->
 
 <hr>
 
-### 11. Prepare for Deployment 🪢
+### 13. Prepare for Deployment 🪢
 
 <!-- - [x] Create total of 7 unique **`Card`** components(*journal entries*) inside **`.cards-list`** by updating `data.js`.
 - [x] Delete **unnecessary** files from directory and format code with `Prettier`.
@@ -195,7 +200,7 @@ complete **React App** pre-configured and pre-installed with all the dependencie
 
 <hr>
 
-### 12. Deploy 📤
+### 14. Deploy 📤
 
 - [x] Use Official Documentation([link](https://create-react-app.dev/docs/deployment/#github-pages)) to push the project to **GitHub Pages** 🎆🎆🎆
 
